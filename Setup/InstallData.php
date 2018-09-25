@@ -1,6 +1,6 @@
 <?php
 
-namespace Creativestyle\CommonBlocks\Setup;
+namespace MageSuite\CommonBlocks\Setup;
 
 class InstallData implements \Magento\Framework\Setup\InstallDataInterface
 {
@@ -175,7 +175,7 @@ EOT;
         $identifier = $block->getIdentifier();
 
         if ($this->blockExists($identifier)) {
-            throw \Exception("BlockInstaller: Block with identifier '{$identifier}' exists there, skipped.");
+            return;
         }
 
         $this->blockResource->save($block);
