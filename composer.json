@@ -1,6 +1,6 @@
 {
-  "name": "creativestyle/common-blocks",
-  "description": "Extension with recurring script that will remove all leftover attributes data.",
+  "name": "creativestyle/magesuite-common-blocks",
+  "description": "Extension with automatic script that will install common blocks used by each template e.g.: Columns in footer. USPs in topbar..",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
@@ -13,7 +13,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Creativestyle\\ClearAttributes\\": ""
+      "MageSuite\\CommonBlocks\\": ""
     }
   }
 }
