@@ -62,10 +62,10 @@ class InstallData implements \Magento\Framework\Setup\InstallDataInterface
     private function createHeaderTopbarHotlineBlock()
     {
         $content = <<<'EOT'
-        <div class="ms-topbar__hotline">
-            <a class="ms-topbar__phone-number" href="tel:{{config path="general/store_information/phone"}}">{{config path="general/store_information/phone"}}</a>
-            <span class="ms-topbar__opening-hours-label">Our lines are open: </span>
-            <span class="ms-topbar__opening-hours">{{config path="general/store_information/hours"}}</span>
+        <div class="mgs-topbar__hotline">
+            <a class="mgs-topbar__phone-number" href="tel:{{config path="general/store_information/phone"}}">{{config path="general/store_information/phone"}}</a>
+            <span class="mgs-topbar__opening-hours-label">Our lines are open: </span>
+            <span class="mgs-topbar__opening-hours">{{config path="general/store_information/hours"}}</span>
         </div>
 EOT;
 
@@ -83,10 +83,10 @@ EOT;
     private function createHeaderTopbarUspsBlock()
     {
         $content = <<<'EOT'
-        <ul class="ms-topbar__list ms-topbar__list--featured">
-            <li class="ms-topbar__list-item"><span class="ms-topbar__text">Discreet and rapid delivery</span></li>
-            <li class="ms-topbar__list-item"><span class="ms-topbar__text">All offers include VAT</span></li>
-            <li class="ms-topbar__list-item"><span class="ms-topbar__text">24h delivery</span></li>
+        <ul class="mgs-topbar__list mgs-topbar__list--featured">
+            <li class="mgs-topbar__list-item"><span class="mgs-topbar__text">Discreet and rapid delivery</span></li>
+            <li class="mgs-topbar__list-item"><span class="mgs-topbar__text">All offers include VAT</span></li>
+            <li class="mgs-topbar__list-item"><span class="mgs-topbar__text">24h delivery</span></li>
         </ul>
 EOT;
 
@@ -104,12 +104,12 @@ EOT;
     private function createFooterLinks1Block()
     {
         $content = <<<'EOT'
-        <ul class="ms-footer-links">
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 4" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 5" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+        <ul class="mgs-footer-links">
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 4" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 5" template="widget/link/link_inline.phtml" page_id="3"}}</li>
         </ul>
 EOT;
 
@@ -127,13 +127,13 @@ EOT;
     private function createFooterLinks2Block()
     {
         $content = <<<'EOT'
-        <ul class="ms-footer-links">
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 4" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 5" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 6" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+        <ul class="mgs-footer-links">
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 4" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 5" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 6" template="widget/link/link_inline.phtml" page_id="3"}}</li>
         </ul>
 EOT;
 
@@ -151,11 +151,11 @@ EOT;
     private function createFooterLinks3Block()
     {
         $content = <<<'EOT'
-        <ul class="ms-footer-links">
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 3" template="widget/link/link_inline.phtml" page_id="3"}}</li>
-            <li class="ms-footer-links__item"><a href="{{store direct_url="contact"}}">Contact us</a></li>
+        <ul class="mgs-footer-links">
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item">{{widget type="Magento\Cms\Block\Widget\Page\Link" anchor_text="Custom Link 3" template="widget/link/link_inline.phtml" page_id="3"}}</li>
+            <li class="mgs-footer-links__item"><a href="{{store direct_url="contact"}}">Contact us</a></li>
         </ul>
 EOT;
 
